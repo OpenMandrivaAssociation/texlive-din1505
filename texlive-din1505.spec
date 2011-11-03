@@ -1,3 +1,9 @@
+# revision 19441
+# category Package
+# catalog-ctan /biblio/bibtex/contrib/german/din1505
+# catalog-date 2008-11-25 15:33:33 +0100
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-din1505
 Version:	20081125
 Release:	1
@@ -44,6 +50,7 @@ abbrv), together with a style natdin to work with natbib.
 %doc %{_texmfdistdir}/doc/latex/din1505/README.TEXLIVE
 %doc %{_texmfdistdir}/doc/latex/din1505/leitbild.bib
 %doc %{_texmfdistdir}/doc/latex/din1505/natbib.cfg
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ abbrv), together with a style natdin to work with natbib.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
