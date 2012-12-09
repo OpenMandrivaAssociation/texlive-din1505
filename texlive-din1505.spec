@@ -51,3 +51,17 @@ abbrv), together with a style natdin to work with natbib.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20081125-2
++ Revision: 750958
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20081125-1
++ Revision: 718231
+- texlive-din1505
+- texlive-din1505
+- texlive-din1505
+- texlive-din1505
+
