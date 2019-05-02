@@ -5,8 +5,8 @@
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-din1505
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	Bibliography styles for German texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/german/din1505
