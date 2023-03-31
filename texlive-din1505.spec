@@ -1,6 +1,6 @@
 Name:		texlive-din1505
 Version:	19441
-Release:	1
+Release:	2
 Summary:	Bibliography styles for German texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/german/din1505
