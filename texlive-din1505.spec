@@ -3,7 +3,7 @@ Version:	19441
 Release:	2
 Summary:	Bibliography styles for German texts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/german/din1505
+URL:		https://www.ctan.org/tex-archive/biblio/bibtex/contrib/german/din1505
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/din1505.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/din1505.doc.r%{version}.tar.xz
